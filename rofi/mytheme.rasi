@@ -1,0 +1,17 @@
+* {
+    bg:      #0d0d12;
+    bg-alt:  #1a1a24;
+    fg:      #c8c8d0;
+    dim:     #6b6b7a;
+    purple:  #af87ff;
+    green:   #5faf5f;
+    red:     #d75f5f;
+}
+
+window {
+    width: 600px;
+    background-color: @bg;
+    border: 2px;
+    border-color: @purple;
+    border-radius: 8px;
+}
